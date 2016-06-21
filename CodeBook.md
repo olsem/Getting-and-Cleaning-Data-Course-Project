@@ -60,7 +60,12 @@ It creates a data frame contains "ResultMean" with the average of each variable 
 Writing second tidy data set - "ResultMean.csv" in the Working Directory.
 
 ##Variables of data sets
-Variable name may include the following substrings:
+Data sets Result.csv and ResultMean.csv contain variables:
+
+* subject 
+* activity labels - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+Variable names of data sets Result.csv and ResultMean.csv include the following substrings:
 
 * Time - time domain signals, indicate signals from the accelerometer and gyroscope 3-axial raw signals 
 * Freq - frequency domain signals, Fast Fourier Transform (FFT) was applied, 
