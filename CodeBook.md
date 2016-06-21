@@ -59,6 +59,18 @@ It creates a data frame contains "ResultMean" with the average of each variable 
 
 Writing second tidy data set - "ResultMean.csv" in the Working Directory.
 
+##Variables of data sets
+Variable name may include the following substrings:
+
+* Time - time domain signals, indicate signals from the accelerometer and gyroscope 3-axial raw signals 
+* Freq - frequency domain signals, Fast Fourier Transform (FFT) was applied, 
+* XYZ - is used to denote 3-axial signals in the X, Y and Z directions
+* BodyAcc - acceleration signal was then separated into body acceleration signals 
+* GravityAcc - acceleration signal was then separated into acceleration signals 
+* BodyAccJerk - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+* BodyAccMag - the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+
+
 
 
 
